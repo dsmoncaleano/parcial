@@ -1,0 +1,26 @@
+Algoritmo Fibonacci_y_Suma
+		Definir n, a, b, i, suma_fibonacci Como Entero
+		Definir fibonacci Como Cadena
+		
+		Escribir "Ingrese el número de términos de la serie Fibonacci que desea mostrar:"
+		Leer n
+		
+		a <- 0
+		b <- 1
+		suma_fibonacci <- 0
+		fibonacci <- ConvertirATexto(a)
+		
+		Para i <- 1 Hasta n - 1 Hacer
+			suma_fibonacci <- suma_fibonacci + a
+			fibonacci <- fibonacci + ", " + ConvertirATexto(b)
+			aux <- b
+			b <- a + b
+			a <- aux
+		FinPara
+		
+		suma_fibonacci <- suma_fibonacci + b
+		
+		Escribir "Los primeros", n, "términos de la serie Fibonacci son:"
+		Escribir fibonacci
+		Escribir "La suma de los primeros", n, "términos de la serie Fibonacci es:", suma_fibonacci
+FinAlgoritmo

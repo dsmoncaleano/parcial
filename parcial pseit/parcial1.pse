@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+		// Este algoritmo imprime los números del 1 al 10
+		Para numero = 1 Hasta 10 Con Paso 1 Hacer
+			Escribir(numero)
+		FinPara
+FinAlgoritmo
+

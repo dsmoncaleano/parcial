@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+		Definir suma Como Entero
+		suma <- 0
+		
+		Para numero <- 1 Hasta 20 Con Paso 1 Hacer
+			suma <- suma + numero
+		FinPara
+		
+		Si suma = 210 Entonces
+			Escribir("El total es 210.")
+		Sino
+			Escribir("El total no es 210.")
+		FinSi
+FinAlgoritmo
+
